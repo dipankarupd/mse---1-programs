@@ -72,6 +72,7 @@ class EmployeeClass {
                 list.add(x);
             }
         }
+        System.out.println("The detail of the ones with less salary: ");
         Employee[] result = list.toArray(new Employee[list.size()]);
         for(Employee x : result) {
             x.display();
