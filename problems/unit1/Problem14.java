@@ -5,7 +5,7 @@ Develop a program to swap 2 objects of a Number class.
 Number class has an instance variable of type double, a constructor
 to initialize and the swap method.
  */
-public class Number {
+class Number {
 
     double num1;
     double num2;
@@ -25,7 +25,7 @@ public class Number {
     }
 }
 
-class NumberClass {
+public class Problem14 {
     public static void main(String[] args) {
         Number n1 = new Number(5,10);
         n1.swap();

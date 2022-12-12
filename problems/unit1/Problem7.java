@@ -14,7 +14,7 @@ book.
 
 import java.util.*;
 
-public class Books {
+class Books {
 
     Scanner scn = new Scanner(System.in);
     String title;
@@ -46,7 +46,7 @@ public class Books {
     }
 }
 
-class Main {
+public class Problem7 {
     public static void main(String[] args) {
 
         Books b1 = new Books();

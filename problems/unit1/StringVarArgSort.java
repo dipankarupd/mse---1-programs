@@ -2,6 +2,11 @@ package com.raj.problems.unit1;
 
 import java.util.Arrays;
 
+/*
+                                     Problem 24
+Write a Java program to sort strings that are passed as varargs to a method.
+ */
+
 public class StringVarArgSort {
 
     public static void main(String[] args) {

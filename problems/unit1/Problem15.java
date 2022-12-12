@@ -5,7 +5,7 @@ Write a Java program to multiply 2 integers using a recursive function.
 Input integers from the console.
  */
 
-public class Multiply {
+public class Problem15 {
 
     int multiply(int a, int b){
 
@@ -17,7 +17,7 @@ public class Multiply {
 
     public static void main(String[] args) {
 
-        Multiply m1 = new Multiply();
+        Problem15 m1 = new Problem15();
         System.out.println(m1.multiply(7,4));
     }
 }

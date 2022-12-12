@@ -9,7 +9,7 @@ values to members of the object. Include display method to print the
 employee details. In the main method create an array of employees and print
 those employee details with income greater than 15k.
  */
-public class Employee {
+class Employee {
     String name;
     int empid;
     int age;
@@ -53,7 +53,7 @@ public class Employee {
     }
 }
 
-class EmployeeClass {
+public class Problem8 {
     public static void main(String[] args) {
 
         Employee[] arr = new Employee[3];
@@ -66,6 +66,8 @@ class EmployeeClass {
         arr[1].display();
         arr[2].display();
 
+        // creating the list of employees with the salary less than 15000
+
         ArrayList<Employee> list = new ArrayList<Employee>();
         for(Employee x : arr) {
             if(x.income < 15000) {
@@ -73,7 +75,10 @@ class EmployeeClass {
             }
         }
         System.out.println("The detail of the ones with less salary: ");
-        Employee[] result = list.toArray(new Employee[list.size()]);
+        int n = list.size();    // size of the elements in the list:
+
+        Employee[] result = list.toArray(new Employee[n]);  // declaring an array
+
         for(Employee x : result) {
             x.display();
         }

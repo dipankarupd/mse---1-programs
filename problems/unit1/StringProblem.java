@@ -1,6 +1,12 @@
 package com.raj.problems.unit1;
 import java.util.*;
 
+/*
+                                Program 21
+Write a program to input 2 strings, concatenate these strings and reverse the
+concatenated string
+ */
+
 public class StringProblem {
 
     public static void main(String[] args) {
